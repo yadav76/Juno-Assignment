@@ -1,0 +1,14 @@
+.main-container{
+    display: flex;
+    
+}
+.left{
+    width: 258px;
+    height: 100vh;
+}
+.right{
+    width: 70%;
+    height: 100vh;
+}
+
+

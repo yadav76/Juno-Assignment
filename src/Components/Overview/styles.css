@@ -1,0 +1,49 @@
+:root {
+    --large: 30px;
+    --small: 12px;
+    --medium: 16px;
+    --white: #ffffff;
+    --gray: rgb(88, 97, 97);
+
+  }
+
+.overview-container{
+    width: 258px;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("./assets/logo.png");
+    font-weight: 300;
+    font-size: var(--large);
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin: 20px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+.menu-content{
+    font-size: var(--medium);
+    color: var(--gray);
+    font-weight: 400;
+    margin: 30px;
+    padding-left: 10px;
+}
+
+.menu-content p{
+    margin: 15px 0px;
+}
+
+.profile img{
+    vertical-align: middle;
+    width: 100px;
+    height: 200px;
+    border-radius: 50%;
+}
