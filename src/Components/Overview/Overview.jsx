@@ -1,5 +1,6 @@
 import React from 'react'
 import "./styles.css"
+import Profile from "../../assets/avatar.png"
 
 const Overview = () => {
     return (
@@ -19,7 +20,7 @@ const Overview = () => {
             </div>
             <div className="right-container">
                 <div className="profile">
-                    <img src="../../assets/logo.png" alt="" />
+                    <img src={Profile} alt="" />
                 </div>
                 <div className="profile-details">
                     <h4>Elon Musk</h4>

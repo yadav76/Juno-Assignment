@@ -6,7 +6,7 @@ import Pending from './Components/Pending/Pending'
 import CloseAccount from './Components/CloseAccount/CloseAccount'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [changeTab, setChangeTab] = useState("Pending")
 
   return (
     <>

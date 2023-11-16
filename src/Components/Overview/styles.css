@@ -10,7 +10,8 @@
 .overview-container{
     width: 258px;
     height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red;*/
+    border-right: 1px solid gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,7 +26,7 @@
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
     margin: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding-left: 20px;
 }
 
@@ -33,17 +34,38 @@
     font-size: var(--medium);
     color: var(--gray);
     font-weight: 400;
-    margin: 30px;
-    padding-left: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.menu-content p:hover{
+    background: rgb(236, 239, 240);
+    color: blue;
+}
+.menu-content p{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    font-size: var(--medium);
 }
 
 .menu-content p{
     margin: 15px 0px;
 }
 
+.right-container{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 20px;
+}
+
+.right-container .profile-details{
+    font-size: var(--small);
+}
 .profile img{
     vertical-align: middle;
-    width: 100px;
-    height: 200px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
+    margin: 0px 10px;
 }
